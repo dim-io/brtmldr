@@ -1,0 +1,90 @@
+{
+ "title": "brtmldr",
+ "name": "Bart Mulder",
+ "domain": "www.brtmldr.com",
+ "url": "https://www.brtmldr.com",
+ "seoTitle": "Bart Mulder | Analogue Travel & Landscape Photographer",
+ "description": "Analog photographer based in Haarlem, the Netherlands, capturing timeless travel and landscape photography on film. Inspired by mountains, remote landscapes, and quiet moments, creating nostalgic images that reconnect people with a place.",
+ "email": "brtmldr@icloud.com",
+ "instagram": "https://www.instagram.com/brt_mldr",
+ "instagramHandle": "@brt_mldr",
+ "footer": "© Bart Mulder",
+ "homeOrder": [
+  "french-alps",
+  "mallorca",
+  "madeira",
+  "dolomites",
+  "faro",
+  "lake-garda",
+  "the-netherlands",
+  "mont-blanc",
+  "french-alps-2",
+  "selected"
+ ],
+ "about": {
+  "seoTitle": "Contact & About | Bart Mulder",
+  "description": "Explore Bart Mulder’s outdoor and travel photography, featuring mountains, cities, and nature. Contact for collaborations and licensing opportunities.",
+  "portrait": {
+   "file": "13b373-DSC04918",
+   "w": 2500,
+   "h": 3095,
+   "alt": "Portrait of Bart Mulder"
+  },
+  "bio": [
+   "Bart is a photographer based in Haarlem, the Netherlands, exploring landscapes, travel, and the quiet moments found along the way.",
+   "With a deep connection to the outdoors, Bart finds inspiration in mountains, remote landscapes, and the changing atmosphere of the places he encounters. His work often take him across Europe, where the Alps hold a special place in both his life and photographic work.",
+   "Working primarily with analog film, Bart captures timeless images that reflect the character, emotion, and nostalgia of a moment. Through his photography, he invites viewers to slow down and reconnect with a place."
+  ],
+  "publications": [
+   {
+    "name": "Woofer Magazine",
+    "url": "https://woofermagazine.com/"
+   },
+   {
+    "name": "Fisheye Magazine",
+    "url": "https://fisheyemagazine.fr/"
+   },
+   {
+    "name": "Banal Magazine",
+    "url": "https://www.banalmag.com/"
+   },
+   {
+    "name": "Hutspot Magazine",
+    "url": "https://www.hutspotmag.com/"
+   },
+   {
+    "name": "Gabari Magazine",
+    "url": "https://gabarimagazine.com/"
+   }
+  ],
+  "collaborations": [
+   {
+    "name": "Voigtländer",
+    "url": "https://www.voigtlaender.de/?lang=en"
+   },
+   {
+    "name": "Thypoch",
+    "url": "https://thypoch.com/"
+   }
+  ],
+  "licensingClients": [
+   {
+    "name": "British Airways",
+    "url": "https://www.britishairways.com/"
+   },
+   {
+    "name": "Expedia Group / VRBO",
+    "url": "https://www.expediagroup.com/"
+   }
+  ],
+  "licensing": {
+   "email": "licensing@kintzing.com",
+   "label": "kintzing.com",
+   "url": "https://archive.kintzing.com/photographer/bart-mulder/"
+  }
+ },
+ "tagline": "Bart Mulder, analogue travel and landscape photography, Haarlem",
+ "redirects": {
+  "/home/": "/"
+ }
+}

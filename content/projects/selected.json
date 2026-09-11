@@ -1,0 +1,48 @@
+{
+ "slug": "selected",
+ "title": "Selected",
+ "year": "",
+ "meta": "",
+ "intro": "",
+ "weight": 0.8,
+ "description": "A selection of single analogue photographs by Bart Mulder from different trips: mountains, beaches and quiet interiors, all shot on film.",
+ "cover": "28485b-000002670001",
+ "images": [
+  "28485b-000002670001",
+  {
+   "file": "56a52f-Portra400_20_1",
+   "alt": "A mountain river flowing through a forested valley with tall trees on either side, and mountains with clouds in the background."
+  },
+  {
+   "file": "4aaf0f-img20220816_19563070-positive",
+   "alt": "Yellow house with a tiled red roof nestled among lush greenery, with mountains and the ocean in the background."
+  },
+  {
+   "file": "40b152-img20220818_22520934-positive",
+   "alt": "A house with a tiled roof, two chimneys, and a front door, surrounded by trees, with mountains in the background."
+  },
+  "774d9d-000002110011",
+  {
+   "file": "fcb0cd-000005370004",
+   "alt": "Beach houses with solar panels on roofs, ocean, sunset sky with clouds and birds."
+  },
+  {
+   "file": "337037-000005370007",
+   "alt": "Sunset at the beach with a wooden house, blue beach cabanas, a small pier, and seagulls near the water."
+  },
+  {
+   "file": "0ccf60-000005330025",
+   "alt": "Yellow lifeguard tower with a ramp on a sandy beach near the ocean, under a clear blue sky."
+  },
+  {
+   "file": "a61c2c-Portra400_28_1",
+   "alt": "A mountain cabin outdoor patio with two turquoise chairs, a small round stone table, potted flowers, and lush greenery with forested mountains in the background."
+  },
+  "7848cf-000002520016",
+  {
+   "file": "3770ec-000005330021",
+   "alt": "Empty restaurant with tables and chairs, sunlight casting shadows, through large windows."
+  },
+  "b45caf-000002520017"
+ ]
+}

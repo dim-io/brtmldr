@@ -1,0 +1,11 @@
+{
+  "name": "brtmldr",
+  "private": true,
+  "type": "module",
+  "description": "Statische portfoliosite van Bart Mulder (brtmldr.com)",
+  "scripts": {
+    "build": "node build.mjs",
+    "images": "sh scripts/images.sh",
+    "serve": "node build.mjs && cd dist && python3 -m http.server 8765"
+  }
+}

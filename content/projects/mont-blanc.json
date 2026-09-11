@@ -1,0 +1,28 @@
+{
+ "slug": "mont-blanc",
+ "title": "Mont Blanc",
+ "year": "",
+ "meta": "",
+ "intro": "",
+ "weight": 0.9,
+ "description": "Analogue photographs from around Mont Blanc by Bart Mulder: a mountain river, a pine forest and an aerial tramway, all shot on film.",
+ "cover": "b1d314-Portra400_20_1",
+ "images": [
+  {
+   "file": "b1d314-Portra400_20_1",
+   "alt": "A scenic view of a flowing mountain river surrounded by evergreen trees and rocky banks, with mountains and blue sky in the background."
+  },
+  {
+   "file": "bfea97-Portra400_25_1",
+   "alt": "Aerial tramway car with open door, surrounded by trees and mountain scenery in the background."
+  },
+  {
+   "file": "b4a20c-Portra400_7_1",
+   "alt": "A mountain river flowing through a dense pine forest with tall trees and rocky surroundings."
+  },
+  {
+   "file": "d8bcc6-Portra400_21_1",
+   "alt": "Mountain landscape with rocky slopes, dense green trees, a river, and partly cloudy sky."
+  }
+ ]
+}
