@@ -174,7 +174,11 @@ body.lightbox-open { overflow: hidden; }
   .menu-toggle span:first-child { top: 16px; } .menu-toggle span:last-child { top: 23px; }
   .nav-open .menu-toggle span:first-child { top: 19.5px; transform: rotate(45deg); }
   .nav-open .menu-toggle span:last-child { top: 19.5px; transform: rotate(-45deg); }
-  .site-nav { position: fixed; inset: 0; background: var(--bg); flex-direction: column; justify-content: center; align-items: center; gap: 22px; padding: 90px var(--gutter) 40px; overflow: auto; z-index: 2; opacity: 0; visibility: hidden; transition: opacity .25s, visibility .25s; }
+  /* Open menu: de blur op de header zou het vaste menu binnen de header opsluiten, dus die gaat dan uit. */
+  .nav-open .site-header { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--bg); border-bottom-color: transparent; }
+  .site-nav { position: fixed; inset: 0; height: 100dvh; background: var(--bg); flex-direction: column; justify-content: flex-start; align-items: center; gap: 14px; padding: 72px var(--gutter) 28px; overflow-y: auto; -webkit-overflow-scrolling: touch; z-index: 2; opacity: 0; visibility: hidden; transition: opacity .25s, visibility .25s; }
+  .site-nav > :first-child { margin-top: auto; }
+  .site-nav > :last-child { margin-bottom: auto; } /* gecentreerd als het past, scrolbaar als het niet past */
   .nav-open .site-nav { opacity: 1; visibility: visible; }
   /* Zonder JavaScript: menuknop weg, navigatie gewoon in beeld */
   .no-js .menu-toggle { display: none; }
@@ -182,11 +186,11 @@ body.lightbox-open { overflow: hidden; }
   .no-js .site-nav { position: static; opacity: 1; visibility: visible; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; gap: 16px; padding: 0; width: 100%; }
   .no-js .site-nav a { font-size: 13px; font-family: var(--font-body); font-weight: 400; }
   .no-js .submenu { display: none; }
-  .site-nav a { font-family: var(--font-head); font-weight: 700; font-size: 22px; color: var(--ink); }
+  .site-nav a { font-family: var(--font-head); font-weight: 700; font-size: 21px; color: var(--ink); }
   .site-nav .has-menu > a { color: var(--muted); font-size: 12px; font-family: var(--font-body); font-weight: 400; letter-spacing: .04em; text-decoration: none; }
   .has-menu::after { display: none; }
-  .submenu { display: flex; position: static; border: 0; padding: 4px 0 0; gap: 10px; text-align: center; min-width: 0; }
-  .submenu a { font-size: 20px; font-family: var(--font-head); font-weight: 700; color: var(--ink); }
+  .submenu { display: flex; position: static; border: 0; padding: 4px 0 0; gap: 8px; text-align: center; min-width: 0; -webkit-backdrop-filter: none; backdrop-filter: none; background: none; }
+  .submenu a { font-size: 19px; font-family: var(--font-head); font-weight: 700; color: var(--ink); }
   .submenu a[aria-current="page"] { text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
   .nav-item { text-align: center; }
   .site-nav .icon svg { width: 22px; height: 22px; }
